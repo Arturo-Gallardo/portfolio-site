@@ -842,6 +842,11 @@ nav a {
 }
 
 @media (min-width: 64rem) {
+  .language-menu,
+  .theme-toggle {
+    order: 1;
+  }
+
   nav {
     flex-direction: row;
     gap: 2rem;
